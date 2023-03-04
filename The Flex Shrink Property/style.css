@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: cornflowerblue;
+}
+
+.flex-container > div {
+    background-color:blueviolet ;
+    color: white;
+    width: 50px;
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 32px;
+}
+
+.escolhida {
+    flex-shrink: 2;
+}
